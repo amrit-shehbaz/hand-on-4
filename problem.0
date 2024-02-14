@@ -1,8 +1,1 @@
-By stepping into the function when calling fib(5), I get the following sequence:
-fib(5) -> fib(4) -> fib(3) -> fib(2) -> fib(1) -> fib(0)
--> fib(1) -> fib(2)
--> fib(1) -> fib(0)
--> fib(3) -> fib(2) -> fib(1) -> fib(0)
--> fib(1)
-Expressed in big-O notation, the time complexity is O(2^n), indicating that the time required by the algorithm grows exponentially with the input size n. This exponential growth leads to inefficiency for larger values of n due to the vast number of redundant calculations.
 
