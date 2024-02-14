@@ -1,0 +1,11 @@
+problem.1: Time Complexity Analysis: The time complexity arises mainly from the insertion and extraction operations on the min-heap, which take O(log K) time. Since there are N total elements, and each element is inserted and extracted once, the total time complexity is O(N * log K).
+
+Possible Improvements:
+
+If memory usage is not a concern, you could store all elements in a single array, sort it, and return it. This approach would have a time complexity of O(N * log N), but it might be faster in practice for small values of K.
+
+problem.2: Time Complexity Analysis: The time complexity arises from iterating over the array once. Since each element is visited only once, the time complexity is O(N).
+
+Possible Improvements:
+
+If memory usage is not a concern, you could use additional data structures like hash tables to achieve a time complexity of O(N) while potentially reducing the constant factor compared to the two-pointer approach.
